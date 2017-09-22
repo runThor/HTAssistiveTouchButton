@@ -13,6 +13,7 @@
 		F70EA3C91F74FE9400BB81B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70EA3C71F74FE9400BB81B7 /* Main.storyboard */; };
 		F70EA3CB1F74FE9400BB81B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70EA3CA1F74FE9400BB81B7 /* Assets.xcassets */; };
 		F70EA3CE1F74FE9400BB81B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70EA3CC1F74FE9400BB81B7 /* LaunchScreen.storyboard */; };
+		F70EA3D81F75011400BB81B7 /* HTAssistiveTouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F70EA3D71F75011400BB81B7 /* HTAssistiveTouchButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F70EA3CA1F74FE9400BB81B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F70EA3CD1F74FE9400BB81B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F70EA3CF1F74FE9400BB81B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70EA3D61F75011400BB81B7 /* HTAssistiveTouchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAssistiveTouchButton.h; sourceTree = "<group>"; };
+		F70EA3D71F75011400BB81B7 /* HTAssistiveTouchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAssistiveTouchButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				F70EA3C21F74FE9400BB81B7 /* AppDelegate.m */,
 				F70EA3C41F74FE9400BB81B7 /* ViewController.h */,
 				F70EA3C51F74FE9400BB81B7 /* ViewController.m */,
+				F70EA3D51F74FF2E00BB81B7 /* HTAssistiveTouchButton */,
 				F70EA3C71F74FE9400BB81B7 /* Main.storyboard */,
 				F70EA3CA1F74FE9400BB81B7 /* Assets.xcassets */,
 				F70EA3CC1F74FE9400BB81B7 /* LaunchScreen.storyboard */,
@@ -77,6 +81,15 @@
 				F70EA3BF1F74FE9400BB81B7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F70EA3D51F74FF2E00BB81B7 /* HTAssistiveTouchButton */ = {
+			isa = PBXGroup;
+			children = (
+				F70EA3D61F75011400BB81B7 /* HTAssistiveTouchButton.h */,
+				F70EA3D71F75011400BB81B7 /* HTAssistiveTouchButton.m */,
+			);
+			path = HTAssistiveTouchButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70EA3C61F74FE9400BB81B7 /* ViewController.m in Sources */,
+				F70EA3D81F75011400BB81B7 /* HTAssistiveTouchButton.m in Sources */,
 				F70EA3C31F74FE9400BB81B7 /* AppDelegate.m in Sources */,
 				F70EA3C01F74FE9400BB81B7 /* main.m in Sources */,
 			);
