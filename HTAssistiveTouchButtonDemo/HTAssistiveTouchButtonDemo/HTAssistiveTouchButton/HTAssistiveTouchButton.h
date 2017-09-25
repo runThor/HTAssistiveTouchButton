@@ -10,5 +10,6 @@
 
 @interface HTAssistiveTouchButton : UIButton
 
+@property (nonatomic, strong) NSMutableArray *childButtons;  // 可弹出的子按钮
 
 @end
